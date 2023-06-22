@@ -1,1 +1,2 @@
-print ('Hello world!');
+greeting = "1Good Morning"
+print(greeting.title())
