@@ -30,7 +30,7 @@ def solution(arr, divisor):
     for i in arr:
         # arr을 순회하면서
         if i % divisor == 0:
-            # divisor로 i를 나누었을 때 나머지가 0이라면
+            # divisor로 i를 나누었을 때 나머지가 0이라면k
             result.append(i)
             # element i를 result에 append한다.
             result.sort()
