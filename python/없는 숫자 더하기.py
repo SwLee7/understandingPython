@@ -30,3 +30,7 @@ def solution(numbers):
 # solution 2
 def solution (numbers):
     return 45 - sum(numbers)
+# 풀이
+# numbers가 가질 수 있는 숫자의 범위는 0부터 10까지다.
+# 따라서 numbers안에 들어갈 수들의 합의 최댓값은 45다.
+# 따라서 만일 numbers에 없는 숫자를 찾아 모두 더하려면 45에서 numbers안에 있는 수들의 합을 빼주면 된다.
