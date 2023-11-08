@@ -15,11 +15,9 @@
 
 # solution
 def solution(sizes):
-# separate width and height...
     answer = 0
     width = []
-    height = []
-    
+    height = []    
     for i in range(len(sizes)):
         if sizes[i][0] >= sizes[i][1]:
             width.append(sizes[i][0])
