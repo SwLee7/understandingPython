@@ -12,4 +12,5 @@ def solution(food):
     for i in range(1, len(food)):
         answer += (food[i] // 2) * str(i) 
         # str(i)를 곱해야 숫자만큼 food[i]가 반복된다.
-    return answer   
+    return answer + "0" + answer[::-1]
+    # 0을 기준으로 대칭을 이루어야하기 때문에 answer[::-1]을 추가해준다.
